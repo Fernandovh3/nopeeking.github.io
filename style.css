@@ -1,12 +1,70 @@
-h1 {
-	Margin: 0 auto;
+
+body {
+	/*margin: 0 auto;*/
+	/*background-position: center;*/
 }
-article {
-	font-family: "Times New Roman", Times, Sarif;
+#article1 {
+	font-family: 'Lato', sans-serif;
 	Font-size: 13.666px;
 	Font-weight: bolder;
 	line-height: 90%;
 	letter-spacing: 1px;
-	margin: 0 auto;
 	padding: 20px;
+}
+#article2 {
+	font-size: 16px;
+	line-height:30px;
+	font-family: 'Roboto Slab', serif;
+
+}
+#article3 {
+	letter-spacing: 3px;
+	line-height: 60px;
+	word-break: break-all;
+	font-family: 'Libre Barcode 39 Text', cursive;
+
+}
+
+.top_img {
+	display: block;
+	width:30%;
+	margin: 0 auto !important;
+}
+a {
+	font-size: 23px;
+}
+a:hover {
+	background-color: red;
+}
+a:focus{
+	background-color: orange;
+}
+a:active {
+	background-color: black;
+}
+
+.link2 {
+	font-size: 23px;
+}
+.link2:hover {
+	background-color: orange;
+}
+.link2:focus{
+	background: black;
+}
+.link2:active: {
+	background-color: red;
+}
+
+.link3 {
+	font-size: 23px;
+}
+.link3:hover {
+	background-color: black;
+}
+.link3:focus {
+	background-color: red;
+}
+.link3:active {
+	background-color: orange;
 }
