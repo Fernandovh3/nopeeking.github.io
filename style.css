@@ -1,0 +1,12 @@
+h1 {
+	Margin: 0 auto;
+}
+article {
+	font-family: "Times New Roman", Times, Sarif;
+	Font-size: 13.666px;
+	Font-weight: bolder;
+	line-height: 90%;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 20px;
+}
