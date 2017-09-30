@@ -1,70 +1,69 @@
-
 body {
-	/*margin: 0 auto;*/
-	/*background-position: center;*/
-}
-#article1 {
-	font-family: 'Lato', sans-serif;
-	Font-size: 13.666px;
-	Font-weight: bolder;
-	line-height: 90%;
-	letter-spacing: 1px;
-	padding: 20px;
-}
-#article2 {
-	font-size: 16px;
-	line-height:30px;
-	font-family: 'Roboto Slab', serif;
-
-}
-#article3 {
-	letter-spacing: 3px;
-	line-height: 60px;
-	word-break: break-all;
-	font-family: 'Libre Barcode 39 Text', cursive;
-
+ margin: 0;
+ padding: 0;
 }
 
-.top_img {
-	display: block;
-	width:30%;
-	margin: 0 auto !important;
-}
-a {
-	font-size: 23px;
-}
-a:hover {
-	background-color: red;
-}
-a:focus{
-	background-color: orange;
-}
-a:active {
-	background-color: black;
+header div, main {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 0 1em 0 1em;
 }
 
-.link2 {
-	font-size: 23px;
-}
-.link2:hover {
-	background-color: orange;
-}
-.link2:focus{
-	background: black;
-}
-.link2:active: {
-	background-color: red;
+header {
+ background: #6390bc;
+ width: 100%;
+ top: 0;
+ position: fixed;
 }
 
-.link3 {
-	font-size: 23px;
+header h1 {
+ float: left;
+ font-family: "Times New Roman", arial, sans-serif;
 }
-.link3:hover {
-	background-color: black;
+
+main {
+ padding: 5em 1em 1em 1em;
 }
-.link3:focus {
-	background-color: red;
+
+header a {
+ text-decoration: none;
+ color: white;
 }
-.link3:active {
-	background-color: orange;
+
+header li {
+ display: inline-block;
+ margin-right: 1em;
 }
+
+header li a:hover {
+ color: blue;
+}
+
+header ul {
+ float: right;
+ list-style-type: none;
+ padding-top: 1em;
+}
+
+.main-content img {
+   float: left;
+   padding: 0 20px 20px 0;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000;
+  text-align: center;
+  Color: white;
+}
+
+@media only screen and (max-width: 520px) {
+ header { text-align: center; position: relative; }
+ main { padding: 1em; }
+ header h1 { float: none; margin: 0; }
+ header ul { float: none; margin: auto;}
+}﻿
